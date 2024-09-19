@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhugq' => 'guoqiang.zhu@ubixai.com' }
-  s.source           = { :http => 'https://m-now.ubixioe.com/package_file/mediation_sdk/IOS/2.4.1/iOS_UBiX_N.O.W.SDK_2.4.0.zip' }
+  s.source           = { :git => 'https://github.com/ubixai/UBiMAXGdtAdapter.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
 
   s.static_framework = true
