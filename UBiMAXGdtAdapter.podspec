@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   
   s.dependency 'UBiMAXAdSDK'
   s.dependency 'UBiMAXNative'
-  s.dependency 'GDTMobSDK', '4.15.10'
+  s.dependency 'GDTMobSDK'
 end
