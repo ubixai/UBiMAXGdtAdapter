@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXGdtAdapter'
-  s.version          = '4.15.10.1'
+  s.version          = '4.15.10.2'
   s.summary          = 'UBiX聚合Sass SDK Gdt Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
