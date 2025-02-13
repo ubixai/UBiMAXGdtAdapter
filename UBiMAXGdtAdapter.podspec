@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXGdtAdapter'
-  s.version          = '4.15.10.2'
+  s.version          = '4.15.10.3'
   s.summary          = 'UBiX聚合Sass SDK Gdt Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,5 +17,5 @@ Pod::Spec.new do |s|
   
   s.dependency 'UBiMAXAdSDK'
   s.dependency 'UBiMAXNative'
-  # s.dependency 'GDTMobSDK'
+  s.dependency 'GDTMobSDK','4.15.10'
 end
