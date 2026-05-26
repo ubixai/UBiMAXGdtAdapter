@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXGdtAdapter'
-  s.version          = '4.15.80.0'
+  s.version          = '4.15.90.0'
   s.summary          = 'UBiX聚合Sass SDK Gdt Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
 
@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
 
   s.static_framework = true
-  s.vendored_frameworks = 'UBiMAXGdtAdapter.framework'
+  s.vendored_frameworks = 'UBiMAXGdtAdapter.xcframework'
 
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
 
   s.dependency 'UBiMAXAdSDK'
   s.dependency 'UBiMAXNative'
-  s.dependency 'GDTMobSDK','4.15.80'
+  s.dependency 'GDTMobSDK','4.15.90'
 end

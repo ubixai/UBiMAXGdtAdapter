@@ -1,0 +1,6 @@
+framework module UBiMAXGdtAdapter {
+  umbrella header "UBiMAXGdtAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
